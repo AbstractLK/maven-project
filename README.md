@@ -5,3 +5,5 @@ docker run --rm -it -v ./:/app -w /app maven:latest mvn archetype:generate -Dgro
 
 ## Build the Project
 docker run --rm -it -v ./:/app -w /app maven:latest mvn package
+
+test
